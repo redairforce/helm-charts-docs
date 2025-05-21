@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  channels:
+  - apiVersion: v2
+    appVersion: tve
+    created: "2025-05-21T15:31:35.678599947-05:00"
+    description: A Helm chart for deploying Channels DVR with Cloudflare Tunnels and
+      NFS shares
+    digest: edbe01902ff8b55898c0c5064562101665527032cce427b0c1c86da2cd1ee94f
+    name: channels
+    urls:
+    - https://redairforce.github.io/k3s-helm-charts/channels-0.1.0.tgz
+    version: 0.1.0
+  radarr:
+  - apiVersion: v2
+    appVersion: nightly
+    created: "2025-05-21T15:31:35.678867217-05:00"
+    description: A Helm chart for deploying Radarr with Cloudflare Tunnels and NFS
+      shares
+    digest: c6cf5ff153b4d4b9a6bf85fe9337d09d3c3a3c0d9875994c67c384f32ded73a3
+    name: radarr
+    urls:
+    - https://redairforce.github.io/k3s-helm-charts/radarr-0.3.0.tgz
+    version: 0.3.0
+  radarr-4k:
+  - apiVersion: v2
+    appVersion: nightly
+    created: "2025-05-21T15:31:35.679114991-05:00"
+    description: A Helm chart for deploying Radarr 4K with Cloudflare Tunnels and
+      NFS shares, mounting /mnt/movies/video/movies_4k to /mnt/mediaset/video/movies_4k
+    digest: 3f2bbd8142beb943576b63f91d4b73f84ddc01242786f5bbd1d854bbe7dfd0cb
+    name: radarr-4k
+    urls:
+    - https://redairforce.github.io/k3s-helm-charts/radarr-4k-0.1.0.tgz
+    version: 0.1.0
+  sonarr-4k:
+  - apiVersion: v2
+    appVersion: develop
+    created: "2025-05-21T15:31:35.679392312-05:00"
+    description: A Helm chart for deploying Sonarr 4K with Cloudflare Tunnels and
+      NFS shares, mounting /mnt/series/video/tv_4k to /mnt/mediaset/video/tv_4k
+    digest: 5b12a35c86bc515be23e39fbfccb40b8f87d934100af0fa26307d561a9834dc4
+    name: sonarr-4k
+    urls:
+    - https://redairforce.github.io/k3s-helm-charts/sonarr-4k-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-05-21T15:31:35.678160582-05:00"
