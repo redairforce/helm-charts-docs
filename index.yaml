@@ -3,7 +3,7 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-05-25T01:17:24.288272619-05:00"
+    created: "2025-05-25T01:37:55.736225892-05:00"
     description: A Helm chart for deploying Bazarr with Cloudflare Tunnels and local
       paths on node01
     digest: 4059dbf0af0d9c85278e25e8a13327d27b42e2c287c5b1b7afc7481420c00701
@@ -14,7 +14,7 @@ entries:
   bazarr-4k:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-05-25T01:17:24.288737664-05:00"
+    created: "2025-05-25T01:37:55.73672644-05:00"
     description: A Helm chart for deploying Bazarr 4K with Cloudflare Tunnels and
       local paths on node01
     digest: 527d6e79a3b06cc4bb0133a4311697cc25c590fb8f758c9d15d953186cc333f2
@@ -25,7 +25,7 @@ entries:
   channels:
   - apiVersion: v2
     appVersion: tve
-    created: "2025-05-25T01:17:24.289263411-05:00"
+    created: "2025-05-25T01:37:55.737181751-05:00"
     description: A Helm chart for deploying Channels DVR with Cloudflare Tunnels and
       NFS shares
     digest: edbe01902ff8b55898c0c5064562101665527032cce427b0c1c86da2cd1ee94f
@@ -36,7 +36,7 @@ entries:
   lidarr:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-05-25T01:17:24.289781606-05:00"
+    created: "2025-05-25T01:37:55.737648005-05:00"
     description: A Helm chart for deploying Lidarr with Cloudflare Tunnels and local
       paths on node01
     digest: 049719551ef66673123a684f11930d278695758c56343804ccb435411f66956c
@@ -44,10 +44,21 @@ entries:
     urls:
     - https://redairforce.github.io/helm-charts-docs/lidarr-0.1.0.tgz
     version: 0.1.0
+  openvscode-server:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-05-25T01:37:55.738145319-05:00"
+    description: A Helm chart for deploying OpenVSCode Server with Cloudflare Tunnels
+      and local paths on node01
+    digest: 72a25dad6def07009daa7175d4e5051c545e14cae868880d1c89ce0e9179642c
+    name: openvscode-server
+    urls:
+    - https://redairforce.github.io/helm-charts-docs/openvscode-server-0.1.0.tgz
+    version: 0.1.0
   overseerr:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-05-25T01:17:24.290297751-05:00"
+    created: "2025-05-25T01:37:55.738630996-05:00"
     description: A Helm chart for deploying Overseerr with Cloudflare Tunnels and
       local paths on node01
     digest: bce442dcb803cdae2eb55181cf595438949593f9ff96b7266c493b9673eb2808
@@ -58,7 +69,7 @@ entries:
   radarr:
   - apiVersion: v2
     appVersion: nightly
-    created: "2025-05-25T01:17:24.290744287-05:00"
+    created: "2025-05-25T01:37:55.739994576-05:00"
     description: A Helm chart for deploying Radarr with Cloudflare Tunnels and NFS
       shares
     digest: c6cf5ff153b4d4b9a6bf85fe9337d09d3c3a3c0d9875994c67c384f32ded73a3
@@ -69,7 +80,7 @@ entries:
   radarr-4k:
   - apiVersion: v2
     appVersion: nightly
-    created: "2025-05-25T01:17:24.291259296-05:00"
+    created: "2025-05-25T01:37:55.740534832-05:00"
     description: A Helm chart for deploying Radarr 4K with Cloudflare Tunnels and
       NFS shares, mounting /mnt/movies/video/movies_4k to /mnt/mediaset/video/movies_4k
     digest: 3f2bbd8142beb943576b63f91d4b73f84ddc01242786f5bbd1d854bbe7dfd0cb
@@ -80,7 +91,7 @@ entries:
   recyclarr:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-05-25T01:17:24.291737973-05:00"
+    created: "2025-05-25T01:37:55.740915419-05:00"
     description: A Helm chart for deploying Recyclarr with local paths on node01
     digest: 3271c666589a2f9d786124a65e9191b5e6442f78c87b64a331ba32d2fba7c65b
     name: recyclarr
@@ -90,7 +101,7 @@ entries:
   sonarr:
   - apiVersion: v2
     appVersion: develop
-    created: "2025-05-25T01:17:24.292221519-05:00"
+    created: "2025-05-25T01:37:55.741422242-05:00"
     description: A Helm chart for deploying Sonarr with Cloudflare Tunnels and NFS
       shares, mounting /mnt/series/video/tv to /mnt/series/video/tv
     digest: 5439d1118eb8fd67f655b39ef31226c79656af2cf15ee0eaee6dd4c3e8fcd43a
@@ -101,7 +112,7 @@ entries:
   sonarr-4k:
   - apiVersion: v2
     appVersion: develop
-    created: "2025-05-25T01:17:24.292699058-05:00"
+    created: "2025-05-25T01:37:55.741934684-05:00"
     description: A Helm chart for deploying Sonarr 4K with Cloudflare Tunnels and
       NFS shares, mounting /mnt/series/video/tv_4k to /mnt/mediaset/video/tv_4k
     digest: 5b12a35c86bc515be23e39fbfccb40b8f87d934100af0fa26307d561a9834dc4
@@ -109,4 +120,4 @@ entries:
     urls:
     - https://redairforce.github.io/helm-charts-docs/sonarr-4k-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-25T01:17:24.287403241-05:00"
+generated: "2025-05-25T01:37:55.734895209-05:00"
