@@ -3,7 +3,7 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-05-25T01:01:57.75300228-05:00"
+    created: "2025-05-25T01:09:14.462297186-05:00"
     description: A Helm chart for deploying Bazarr with Cloudflare Tunnels and local
       paths on node01
     digest: 4059dbf0af0d9c85278e25e8a13327d27b42e2c287c5b1b7afc7481420c00701
@@ -11,10 +11,21 @@ entries:
     urls:
     - https://redairforce.github.io/helm-charts-docs/bazarr-0.1.0.tgz
     version: 0.1.0
+  bazarr-4k:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-05-25T01:09:14.462633339-05:00"
+    description: A Helm chart for deploying Bazarr 4K with Cloudflare Tunnels and
+      local paths on node01
+    digest: 527d6e79a3b06cc4bb0133a4311697cc25c590fb8f758c9d15d953186cc333f2
+    name: bazarr-4k
+    urls:
+    - https://redairforce.github.io/helm-charts-docs/bazarr-4k-0.1.0.tgz
+    version: 0.1.0
   channels:
   - apiVersion: v2
     appVersion: tve
-    created: "2025-05-25T01:01:57.753287687-05:00"
+    created: "2025-05-25T01:09:14.462955404-05:00"
     description: A Helm chart for deploying Channels DVR with Cloudflare Tunnels and
       NFS shares
     digest: edbe01902ff8b55898c0c5064562101665527032cce427b0c1c86da2cd1ee94f
@@ -25,7 +36,7 @@ entries:
   lidarr:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-05-25T01:01:57.753536181-05:00"
+    created: "2025-05-25T01:09:14.463321728-05:00"
     description: A Helm chart for deploying Lidarr with Cloudflare Tunnels and local
       paths on node01
     digest: 049719551ef66673123a684f11930d278695758c56343804ccb435411f66956c
@@ -36,7 +47,7 @@ entries:
   overseerr:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-05-25T01:01:57.753784381-05:00"
+    created: "2025-05-25T01:09:14.463669564-05:00"
     description: A Helm chart for deploying Overseerr with Cloudflare Tunnels and
       local paths on node01
     digest: bce442dcb803cdae2eb55181cf595438949593f9ff96b7266c493b9673eb2808
@@ -47,7 +58,7 @@ entries:
   radarr:
   - apiVersion: v2
     appVersion: nightly
-    created: "2025-05-25T01:01:57.754040179-05:00"
+    created: "2025-05-25T01:09:14.463984244-05:00"
     description: A Helm chart for deploying Radarr with Cloudflare Tunnels and NFS
       shares
     digest: c6cf5ff153b4d4b9a6bf85fe9337d09d3c3a3c0d9875994c67c384f32ded73a3
@@ -58,7 +69,7 @@ entries:
   radarr-4k:
   - apiVersion: v2
     appVersion: nightly
-    created: "2025-05-25T01:01:57.755163384-05:00"
+    created: "2025-05-25T01:09:14.464275597-05:00"
     description: A Helm chart for deploying Radarr 4K with Cloudflare Tunnels and
       NFS shares, mounting /mnt/movies/video/movies_4k to /mnt/mediaset/video/movies_4k
     digest: 3f2bbd8142beb943576b63f91d4b73f84ddc01242786f5bbd1d854bbe7dfd0cb
@@ -69,7 +80,7 @@ entries:
   sonarr:
   - apiVersion: v2
     appVersion: develop
-    created: "2025-05-25T01:01:57.755754256-05:00"
+    created: "2025-05-25T01:09:14.464583415-05:00"
     description: A Helm chart for deploying Sonarr with Cloudflare Tunnels and NFS
       shares, mounting /mnt/series/video/tv to /mnt/series/video/tv
     digest: 5439d1118eb8fd67f655b39ef31226c79656af2cf15ee0eaee6dd4c3e8fcd43a
@@ -80,7 +91,7 @@ entries:
   sonarr-4k:
   - apiVersion: v2
     appVersion: develop
-    created: "2025-05-25T01:01:57.756091299-05:00"
+    created: "2025-05-25T01:09:14.464842254-05:00"
     description: A Helm chart for deploying Sonarr 4K with Cloudflare Tunnels and
       NFS shares, mounting /mnt/series/video/tv_4k to /mnt/mediaset/video/tv_4k
     digest: 5b12a35c86bc515be23e39fbfccb40b8f87d934100af0fa26307d561a9834dc4
@@ -88,4 +99,4 @@ entries:
     urls:
     - https://redairforce.github.io/helm-charts-docs/sonarr-4k-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-25T01:01:57.752568969-05:00"
+generated: "2025-05-25T01:09:14.46156947-05:00"
